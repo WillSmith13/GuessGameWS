@@ -56,9 +56,16 @@ public class GuessGame {
 			System.out.println("Game is over.");
 			break; // game over, so break out of the loop 
 		
-		}
+		}	else { 
+			// we must keep going because nobody got it right!
+			System.out.println("Player will have to try again.");
+		} // end if/else
+	} // end loop
+} // end method 
+} // end class 	
+		
+		
 	
 		
-	}
-}
-}
+	
+
